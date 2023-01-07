@@ -19,6 +19,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
  h1{
@@ -62,9 +63,35 @@ body{
     display:none;
 }
 
+.main{
+    padding: 0 50px;
+    background: rgba(5, 7, 12, 0.40);
+    padding: 50px;
+    margin:50px;
+    width: 800px;
+    position:relative;
+    left: 500px;
+}
+
+.section{
+    padding: 10%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+footer{
+    background-color: #B42404;
+    position: relative;
+    top:665px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*responsive*/
+
 @media(max-width: 768px){
     /*header*/
+
     .mostrar-menu,
     .esconder-menu{
         display:block;
@@ -104,6 +131,7 @@ body{
 #index{
     background-image: url(../img/imagen-index.jpg);
 }
+
 /*menu*/
 
 #menu{
@@ -119,7 +147,7 @@ body{
 /*trabaja con nosotros*/
 
 #trabaja-con-nosotros{
-    background-image: url(../img/imagen-trabajo.jpg);
+    background-image: url(../img/imagen-trabajo-con-nosotros.jpg);
  }
 
  /*reserva*/
