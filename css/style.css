@@ -4,7 +4,6 @@
 }
 
 body{
-    background-image: url(../img/imagen-index.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,6 +99,11 @@ body{
      }
 }
 
+/*index*/
+
+#index{
+    background-image: url(../img/imagen-index.jpg);
+}
 /*menu*/
 
 #menu{
@@ -109,7 +113,7 @@ body{
  /*contacto*/
 
  #contacto{
-    background-image: url(../img/imagen-contacto.jpg);
+    background-image: url(../img/imagen-trabajo-con-nosotros.jpg);
 }
 
 /*trabaja con nosotros*/
