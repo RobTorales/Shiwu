@@ -14,7 +14,6 @@ body{
     grid-row: 10% 60% 10%;
 }
  header{
-    width: 96%;
     height: 100px;
     background: #B42404;
     padding: 0 50px;
@@ -23,6 +22,11 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ nav{
+    display:flex;
+    flex-direction:row;
  }
 
  h1{
@@ -35,7 +39,7 @@ body{
     font-family: "mifuente";
     src: url(../fonts/Chinatown-Champs-Italic.ttf);
   }
-
+  
    .nav a{
     color: white;
     text-decoration: none;
@@ -78,6 +82,7 @@ body{
 
 .main__div{
     color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .section{
     padding: 10%;
@@ -88,7 +93,6 @@ body{
 
 footer{
     background-color: #B42404;
-    width: 120%;
     position: relative;
     bottom: -800%;
     color: white;
@@ -116,6 +120,8 @@ footer{
         padding:100px 0px;
         z-index:100;
         transition: 0.8s;
+        display: flex;
+        flex-direction: column;
     }
      .nav a{
         display:block;
@@ -173,12 +179,12 @@ footer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  .salsas h2{
+  .salsash2{
     background: rgba(5, 7, 12, 0.40);
-    position: relative;
-    left: 34%;
+    width: 29.1%;
+    position:relative;
+    left: 650px;
     color: white;
-    width: 29%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  /*contacto*/
@@ -186,6 +192,7 @@ footer{
  #contacto{
     background-image: url(../img/imagen-trabajo-con-nosotros.jpg);
 }
+
  iframe{
     width: 100%;
  }
