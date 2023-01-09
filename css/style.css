@@ -14,7 +14,7 @@ body{
     grid-row: 10% 60% 10%;
 }
  header{
-    width: 100%;
+    width: 96%;
     height: 100px;
     background: #B42404;
     padding: 0 50px;
@@ -76,6 +76,9 @@ body{
     left: 20%;
 }
 
+.main__div{
+    color:white;
+}
 .section{
     padding: 10%;
     color: white;
