@@ -5,7 +5,7 @@
 
 body{
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
@@ -137,9 +137,6 @@ footer{
       width: 5%;
      }
 }
- @media screen and {
-  
- }
 /*index*/
 
 #index{
